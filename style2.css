@@ -8,5 +8,5 @@ h1{
     color: cornflowerblue;
 }
 img{
-    image: 15px
+    image-rendering: 15px;
 }
