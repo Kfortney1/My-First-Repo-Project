@@ -1,4 +1,4 @@
-function TestHi () {
+function TestHi() {
     //This is empty
     //alert('Howdy');
 
@@ -7,10 +7,10 @@ function TestHi () {
     //Test is input value is "hi"
     if (inputElement.value==="hi")
     {
-        alert("correct")
+        alert("Correct")
     }
     else {
-        alert("incorrect"):
+        alert("Incorrect");
         inputElement.style.border = "2px solid red"
     }
 }
