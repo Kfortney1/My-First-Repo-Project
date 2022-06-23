@@ -4,10 +4,11 @@ function TestHi() {
 
     let inputElement = document.getElementById("fname");
     //alert(inputElement.value);
+
     //Test is input value is "hi"
-    if (inputElement.value==="hi")
+    if (inputElement.value === "hi")
     {
-        alert("Correct")
+        alert("Correct");
     }
     else {
         alert("Incorrect");
