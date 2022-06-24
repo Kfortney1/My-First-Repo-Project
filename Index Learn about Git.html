@@ -4,7 +4,7 @@
         <link href="Style.css" rel="stylesheet">
         <script src="script.js"></script>
     </head>
-    <body>
+    <body onload="generateElements()">
         <nav>
             <ul>
                 <li>
@@ -15,8 +15,10 @@
 
         <a href="#ending">Go To End</a>
 
+        <ul id="testGeneration"></ul>
+
         <input id="fname">
-        <button onclick="TestHi"()>Test</button>
+        <button onclick="TestHi()">Test</button>
 
         <h1> Learn About Git</h1>
         <h2> How to make a branch called FEATURE_BRANCH</h2>
