@@ -16,6 +16,12 @@ function TestHi() {
     }
 }
 
+async function getWeather(){
+    let response = await fetch("https://api.weather.gov/gridpoints/TOP/31,80/forecast");
+    let data = await response . json();
+    console.log(data);
+}
+
 function generateElements() {
     alert("Function is called");
     let tech = ["HTML", "CSS", "JavaScript"];
